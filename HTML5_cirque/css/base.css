@@ -1,0 +1,65 @@
+
+body {
+	font: 400 12px "Globale TT";
+	background: black;
+	overflow: hidden;
+	position: absolute;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+	list-style: none;
+	margin: 0;
+}
+
+#wrap {
+	position: relative;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	
+	margin: auto;
+	overflow: hidden;
+}
+
+#contents {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+div#loading {
+    top: 200 px;
+    margin: auto;
+    position: absolute;
+    z-index: 1000;
+    width: 160px;
+    height: 24px;
+    background: url(images/loadingimage.gif) no-repeat;
+    cursor: wait;
+}
+
+#contents div, img{
+	position: absolute;
+}
+
+.arrows {
+	padding: 0 100px 0 75px;
+	position: relative;
+	
+}
+
+.slide {
+	
+}
